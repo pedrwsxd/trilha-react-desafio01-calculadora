@@ -1,29 +1,23 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const InputContainer = styled.div`
+export const InputContainer = styled.div` 
     width: 100%;
     height: 75px;
-    background-color: #AAAAFF;
+    background-color: #AAFFAA;
 
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    align-items: center;
 
     font-size: 24px;
     font-family: 'Roboto';
-    
 
-    input {
-        width: 100%;
+    input{
+        width : 100%;
         height: 75px;
-        background-color: #AAAAFF;
+        background-color:rgb(221, 131, 27);
         border: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+        color: white;
         padding: 0 10px;
-        font-size: 24px;
-        font-family: 'Roboto';
-        color: #FFFFFF;
     }
 `
